@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Habitos Saludables</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link  rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/d889f500af.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" >
+            <a class="navbar-brand" href="index.html"><img src="img/logohb.png" height="45" class="d-inline-block align-top" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav mr-auto ml-auto">
+                <a class="nav-link primordial" href="views/historia.html">Nuestra Historia</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle primordial" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Gastronomía
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item primordial" href="views/subsec/rincon-dulce.html">Rincón Dulce</a>
+                      <a class="dropdown-item primordial" href="views/subsec/rincon-salado.html">Rincón Salado</a>
+                    </div>
+                </li>
+                <a class="nav-link primordial" href="views/noticias.html">Noticias</a>
+                <a class="nav-link primordial" href="views/contacto.html">Contacto</a>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+      <section class="container text-justify text-center bienvenida mt-5">
+          <h1 class="p-4">BIENVENIDOS A HABITOS SALUDABLES!</h1>
+          <img  class="img-fluid rounded mx-auto d-block mb-3"  src="img/logo-hb.png" alt="logo">
+          <h3>Las mejores recetas para tu alimentación:</h3>
+          <div class="row justify-content-center rincon-imagen mx-auto">
+            <div class="rincones col-lg-6 mt-3"> 
+                <img src="img/risoto-pq.jpg" 				alt="Avatar" 			class="image" 		style="width:100%">
+                <div class="middle">
+                    <div><a href="views/subsec/rincon-salado.html" class="mr-5"><h2 class="text">Rincón Salado</h2></a></div>
+                </div>
+              </div>
+              <div class="rincones col-lg-6 mt-3"> 
+                <img src="img/granola-mix-pq.jpg" 				alt="Avatar" 			class="image" 		style="width:100%">
+                <div class="middle">
+                    <div>
+                      <a href="views/subsec/rincon-dulce.html" class="mr-5"><h2 class="text">Rincón Dulce </h2></a></div>
+                </div>
+              </div>
+          </div>
+      </section>
+      <section class="container text-justify mt-5 nuevo shadow p-3 mb-5 rounded ">
+        <div class="row  align-items-center" >
+          <div class="col-md-6 ">
+            <img src="img/vegan.jpg" class="w-100 rounded mx-auto d-block mb-3 mt-3 ml-3" alt="...">
+          </div>
+          <div class="col-md-6">
+            <h4 class=" display-4 mx-auto">NOTICIAS</h5> 
+            <p class="blockquote-footer ml-5 text-left">Mantenete al tanto con las ultimas noticias</p>
+            <p class="user-select-auto ml-4 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+               quod autem eos explicabo id vel aspernatur blanditiis expedita possimus minus, fugiat rem earum illo nulla, provident illum qui eveniet quos.</p>
+               <a class="btn btn-info btn-lg boton mt-3 boton-noticias" href="views/noticias.html" role="button">Noticias</a>
+          </div>
+        </div>
+      </section>
+      <section class="container text-justify mt-5 nuevo shadow p-3 mb-5 rounded ">
+        <div class="row  align-items-center" >
+          <div class="col-md-6 ">
+            <img src="img/alm.jpg" class="w-100 rounded mx-auto d-block mb-3 mt-3 " alt="...">
+          </div>
+          <div class="col-md-6">
+            <h4 class=" display-4  mx-auto">NOSOTROS</h5> 
+            <p class="blockquote-footer ml-5 text-left">Como comenzo la idea de una pagina de recetas</p>
+            <p class="user-select-auto ml-4 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+               quod autem eos explicabo id vel aspernatur blanditiis expedita possimus minus, fugiat rem earum illo nulla, provident illum qui eveniet quos.</p>
+               <a class="btn btn-info btn-lg boton mt-3 boton-noticias" href="views/historia.html" role="button">Nuestra Historia</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+    <footer class="container-fluid-sm">
+      <div class="row redes-logo">
+        <div class="col-12 logohb">
+            <a href="index.html"><img src="img/logohb.png" alt="logo"></a>
+        </div>
+        <div class="col-12 redes">
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f icon-redes"></i></a>
+            <a href="https://twitter.com/home?lang=es"><i class="fab fa-twitter icon-redes"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram icon-redes"></i></a>
+        </div>
+      </div> 
+        <div class="row contacto">
+            <div class="col-12 abajo"></div>
+                <h2>Contactenos</h2>
+                <p class="col-12 text-justify text-center mt-2">
+                  Si desea recibir noticias sobre nuevas recetas o añadir recetas en nuestra página por favor haga click aquí abajo:
+                </p>
+                <a class="btn btn-info btn-lg boton mt-3" href="views/contacto.html" role="button">Más Información</a>
+          </div>
+        </div>
+        
+          <div class="row copy">
+              <div class="col-lg-6 copyright">
+                <p> &copy; 2020 Todos los derechos reservados. |<a href="https://www.linkedin.com/in/luciano99/"> Cancinos Luciano</a></p>
+              </div>
+              <div class="col-lg-6 information">
+                <a href="#">Politicas de prividad</a> | <a href="#">Terminos y condiciones</a>
+              </div>
+        </div>
+    </footer>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

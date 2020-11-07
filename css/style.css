@@ -1,0 +1,375 @@
+
+body{
+    -moz-osx-font-smoothing: grayscale; 
+    -webkit-font-smoothing: antialiased;
+
+}
+
+.copy{
+    background: #101010;
+    color: #c7c7c7;
+    text-align:center;
+    
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.copy a:hover{
+    color: #c7c7c7;
+}
+
+.information a{
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
+
+
+.information a:hover{
+    color: #c7c7c7;
+}
+
+/* FOOTER ARRIBA */
+.redes-logo{
+    padding: 40px 0;
+    /*background: #f7f7f7;*/
+    background: #ffeab9;
+}
+
+.redes-logo footer{
+    max-width: 1200px;
+    margin:auto;
+}
+
+.logohb{
+    text-align: center;
+}
+
+.logohb img{
+    width: 100px;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+.icon-redes{
+    font-size:20px;
+    margin:20px!important;
+    /*background: #efefef;*/
+    background: #ffeab9;
+    width: 50px;
+    height: 50px;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #a2a2a2;
+}
+
+.fa-facebook-f:hover{
+    background: #41579A;
+    color: #fff;
+}
+
+.fa-twitter:hover{
+    color: #26bde8;
+    background: #18191a;
+}
+
+.fa-instagram:hover{
+    background: linear-gradient(to top right, #FCDE30, #e9712a, #d2313b, #ae4198, #7540a1, #5443a8);
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+}
+ /* FOOTER CONTACTO */
+
+ .contacto{
+    background: #282729;
+    color: #bdbdbd;
+    text-align: center!important;
+    display: flex;
+    justify-content: center;
+     padding:20px 5px;
+ }
+
+ h2 {
+     color: #26bde8;
+ }
+
+ .boton{
+     background: #26bde8;
+     color: white;
+ }
+
+ /* MAIN SECCION1 */
+
+body{
+     /* background: url(https://static.ohga.it/wp-content/uploads/sites/24/2018/10/dieta-vegana.jpg); */
+      background: url(https://images.pexels.com/photos/4000421/pexels-photo-4000421.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+     background-size:cover;
+     background-position: center center;
+     background-attachment: fixed;
+ }
+
+ 
+
+ .nuevo{
+    background:  #f2e3b4!important;
+    color: #395442;
+    font-family: sans-serif;
+    text-align:center!important;
+ }    
+
+ * {
+    margin:0!important;
+  }
+ 
+
+ .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 15px!important;
+    padding-left: 15px!important;
+    margin-right: auto!important;
+    margin-left: auto!important;
+ }
+
+
+.rincon-imagen{
+    width: 50%!important;
+}
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    background: black;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .rincones:hover .image {
+    opacity:0.8;
+  }
+  
+  .rincones:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #f2e3b4;
+    color: #395442;
+    font-size: 16px;
+    padding: 16px 32px;
+    text-decoration: none;
+  }
+  
+  .text:hover{
+  text-decoration: none;
+  }
+  
+  .middle a{
+  text-decoration: none;
+  }
+/*------------------ BOTON DEL INDEX / BOTON DE CARDS ----------------------*/
+  .boton-noticias{
+      background:#cea352;
+      border: 1px solid #cea352;
+      color:#4a4929;
+  }
+ 
+  .boton-noticias:hover{
+    background: #d4b16d;
+    border: 1px solid #e3e1d2;
+    color: #797042;
+  }
+
+  .boton-noticias:active{
+    background: #d4b16d;
+    border: 1px solid #e3e1d2;
+    color: #4a4929;
+  }
+
+  .btn-info:not(:disabled):not(.disabled).active, .btn-info:not(:disabled):not(.disabled):active, .show>.btn-info.dropdown-toggle {
+    background: #d4b16d;
+    border: 1px solid #e3e1d2;
+    color: #4a4929;
+    box-shadow: 0 0 0 0.2rem #d4b16d;
+}
+
+.btn-info.focus, .btn-info:focus {
+    background: #d4b16d;
+    border: 1px solid #e3e1d2;
+    color: #4a4929;
+    box-shadow: 0 0 0 0.2rem #d4b16d;
+}
+.btn-info:not(:disabled):not(.disabled).active:focus, .btn-info:not(:disabled):not(.disabled):active:focus, .show>.btn-info.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem #d4b16d;
+}
+/* BOTON DEL INDEX / BOTON DE CARDS */
+/* TITULOS */
+h3{
+    color:#f16b52;
+    font-family: 'Anton', sans-serif!important;
+}
+h1{
+    color:#e63a1c;
+    font-family: 'Anton', sans-serif!important;
+    letter-spacing: 4px;
+
+}
+/* TITULOS */
+/* NAVBAR */
+.navbar{
+    background:#ffd983!important;
+}
+
+.navbar .primordial{
+    color:goldenrod!important;
+    font-family: 'Anton', sans-serif!important;
+    text-transform: uppercase!important;
+    font-size:18px;
+    font-style: oblique;
+    letter-spacing: 1px; 
+}
+.navbar .primordial:hover{
+    color:#000!important;
+}
+.dropdown-menu{
+    background:#ffd983!important;
+    border:1px solid #ffd983!important;
+    font-size: 20px!important;
+}
+.dropdown-item:hover{
+    background: #ffeab9;
+}
+
+#primero{
+    color:black!important;
+    font-family: 'Anton', sans-serif!important;
+    text-transform: uppercase!important;
+    font-size:18px;
+    font-style: oblique;
+    letter-spacing: 1px; 
+}
+/* NOTICIAS */
+  article header {
+    display: flex;
+  }
+  
+  article strong {
+    margin-right: 0.75rem;
+  }
+  
+  .author {
+    text-decoration: none;
+  }
+  
+  .author div {
+    color: rgba(6, 63, 252, 0.7);
+    font-weight: 700;
+  }
+  
+  .author span {
+    border-bottom: .1rem solid hsl(236, 77%, 50%);
+    color: black;
+  }
+  
+  article > * {
+    position: relative;
+    z-index: 10;
+  }
+  
+  article p {
+    color: black;
+    line-height: 1.4;
+  }
+  
+  article footer ul {
+    display: flex;
+    
+    margin: 0;
+    padding: 0;
+    
+    list-style-type: none;
+  }
+  
+  article footer li {
+    margin-right: 1rem;
+  }
+  
+  article footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .15rem .75rem;
+    
+    border-radius: 5rem;
+    color:olivedrab;
+    text-decoration: none;
+  }
+  
+  article footer a:hover,
+  article footer a:focus {
+    background-color: blanchedalmond;
+    color: black;
+  }
+  /* NOTICIAS */
+/*--------------------CONTACTO INICIAL---------------------------- */
+.seccion-contacto{
+    background:#282729;
+    color:blanchedalmond;
+}  
+.dentroContacto { 
+    text-align:center;
+    font-style: italic;
+    font-size: 35px;
+  }
+  
+  .formulario { 
+  text-align:center;
+  }
+  
+  .datos { 
+  text-align:center;
+  color:blanchedalmond;
+}
+
+.datos span{
+  color: blanchedalmond;
+}
+  
+  .wpp{
+    color:black;
+  }
+
+.fa-phone-square{
+  color: blanchedalmond;
+  font-size: 30px;
+}
+.fa-envelope{
+  font-size: 30px;
+}
+  /*--------------------CONTACTO FINAL---------------------------- */
