@@ -37,7 +37,8 @@ body{
 .redes-logo{
     padding: 40px 0;
     /*background: #f7f7f7;*/
-    background: #ffeab9;
+      background: #ffeab9;
+    
 }
 
 .redes-logo footer{
@@ -116,7 +117,9 @@ a:hover{
 
 body{
      /* background: url(https://static.ohga.it/wp-content/uploads/sites/24/2018/10/dieta-vegana.jpg); */
-      background: url(https://images.pexels.com/photos/4000421/pexels-photo-4000421.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+       /* background: url(https://images.pexels.com/photos/4000421/pexels-photo-4000421.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260); */
+      /* background: #fece8c; */
+       background: #f5b994;
      background-size:cover;
      background-position: center center;
      background-attachment: fixed;
@@ -240,14 +243,20 @@ h1{
     letter-spacing: 4px;
 
 }
+
+.h1{color: #395442;}    
 /* TITULOS */
+
+
 /* NAVBAR */
 .navbar{
-    background:#ffd983!important;
+    /*background:#ffd983!important;*/
+    background:#80beaf;
 }
 
 .navbar .primordial{
-    color:goldenrod!important;
+    /*color:goldenrod!important;*/
+    color:#d1dce2;
     font-family: 'Anton', sans-serif!important;
     text-transform: uppercase!important;
     font-size:18px;
@@ -255,26 +264,29 @@ h1{
     letter-spacing: 1px; 
 }
 .navbar .primordial:hover{
-    color:#000!important;
+    /*color:#000!important;*/
+    color:#b3ddd1;
 }
 .dropdown-menu{
-    background:#ffd983!important;
+    /* background:#ffd983!important; */
+    background:#80beaf;
     border:1px solid #ffd983!important;
     font-size: 20px!important;
 }
 .dropdown-item:hover{
-    background: #ffeab9;
+    /* background: #ffeab9; */
+    background:#80beaf;
 }
 
 #primero{
-    color:black!important;
+    color:#c1e6fa;
     font-family: 'Anton', sans-serif!important;
     text-transform: uppercase!important;
     font-size:18px;
     font-style: oblique;
     letter-spacing: 1px; 
 }
-/* NOTICIAS */
+/*----------------------------  NOTICIAS ---------------------------- */
   article header {
     display: flex;
   }
@@ -336,11 +348,18 @@ h1{
     background-color: blanchedalmond;
     color: black;
   }
-  /* NOTICIAS */
+  /* --------------------NOTICIAS-------------------- */
 /*--------------------CONTACTO INICIAL---------------------------- */
+#titulo{
+  color:#8da47e!important;
+}
+
+h1{
+  color:#8da47e!important;
+}
+
 .seccion-contacto{
-    background:#282729;
-    color:blanchedalmond;
+    color:#395442;
 }  
 .dentroContacto { 
     text-align:center;
@@ -354,11 +373,11 @@ h1{
   
   .datos { 
   text-align:center;
-  color:blanchedalmond;
+  color:#395442;
 }
 
 .datos span{
-  color: blanchedalmond;
+  color:#395442;
 }
   
   .wpp{
@@ -366,14 +385,15 @@ h1{
   }
 
 .fa-phone-square{
-  color: blanchedalmond;
+  color:#395442;
   font-size: 30px;
 }
 .fa-envelope{
   font-size: 30px;
 }
   /*--------------------CONTACTO FINAL---------------------------- */
-/* RINCONES DULCES/SALADOS SU INDEX */
+
+  /*------------------- RINCONES DULCES/SALADOS SU INDEX ----------------*/
 #receta{
   background: #ffeab9;
 }
