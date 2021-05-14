@@ -1,7 +1,7 @@
 # Habitos-Saludables
 Pagina web con información y recetas sobre un estilo de vida 100 % vegetal.
 
-![habsaludables](https://imgur.com/vRySmRY)
+![habsaludables](https://i.imgur.com/t3mjC9m.jpg)
 
 ## Construido con 🛠️:
 
